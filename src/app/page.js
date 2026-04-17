@@ -26,7 +26,7 @@ export default async function Home() {
         </button>
       </div>
 
-      {/* Summary Cards */}
+      
       <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 px-4 mb-8">
         <div className="bg-white p-4 rounded-xl shadow text-center">
           <h2 className="text-xl text-black font-bold">10</h2>
@@ -49,7 +49,7 @@ export default async function Home() {
         </div>
       </div>
 
-      {/* Friends Grid */}
+      
       <div className="max-w-6xl mx-auto px-4 pb-10">
         <h2 className="text-lg font-semibold mb-4 text-gray-700">
           Your Friends

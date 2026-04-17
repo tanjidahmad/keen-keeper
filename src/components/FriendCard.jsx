@@ -20,13 +20,13 @@ export default function FriendCard({ friend }) {
           alt={friend.name}
         />
 
-        <h2 className="mt-3 font-semibold">{friend.name}</h2>
+        <h2 className="mt-3 text-black font-semibold">{friend.name}</h2>
 
         <p className="text-sm text-gray-500">
           {friend.days_since_contact} days ago
         </p>
 
-        {/* Tags */}
+       
         <div className="flex flex-wrap justify-center gap-1 mt-2">
           {friend.tags.map((tag, i) => (
             <span
@@ -38,7 +38,7 @@ export default function FriendCard({ friend }) {
           ))}
         </div>
 
-        {/* ✅ Dynamic Status */}
+        
         <p className={`mt-2 text-xs capitalize ${statusStyle[friend.status]}`}>
           {friend.status}
         </p>

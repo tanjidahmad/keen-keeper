@@ -17,7 +17,7 @@ export default function Footer() {
 
         <p className="mb-3">Social Links</p>
 
-        {/* Icons */}
+       
         <div className="flex justify-center gap-4 mb-6">
 
   <Image
@@ -46,7 +46,7 @@ export default function Footer() {
 
 </div>
 
-        {/* Bottom */}
+       
         <div className="border-t border-gray-600 pt-4 flex flex-col md:flex-row justify-between text-sm text-gray-300">
           <p>© 2026 KeenKeeper. All rights reserved.</p>
 
