@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FaHome, FaClock, FaChartBar } from "react-icons/fa";
 import Image from "next/image";
-import { useTimeline } from "@/context/TimelineContext"; // ✅ add
+import { useTimeline } from "@/context/TimelineContext"; 
 
 export default function Navbar() {
   const path = usePathname();
