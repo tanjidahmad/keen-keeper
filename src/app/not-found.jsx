@@ -16,7 +16,7 @@ export default function NotFound() {
 
       <Link href="/">
         <button className="mt-2 px-5 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
-          ← Back to Home
+           Back to Home
         </button>
       </Link>
 

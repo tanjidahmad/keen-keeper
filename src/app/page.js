@@ -12,7 +12,7 @@ export default async function Home() {
   return (
     <div className="bg-gray-100 ">
 
-      {/* Banner */}
+     
       <div className="max-w-5xl mx-auto text-center py-10">
         <h1 className="text-3xl font-bold text-gray-800">
           Friends to keep close in your life

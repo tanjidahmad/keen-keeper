@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
         <TimelineProvider>
           <Navbar />
 
-          {/* 🔥 MAIN FIX */}
+          
           <main className="flex-1">
             {children}
           </main>

@@ -14,7 +14,7 @@ async function getFriends() {
 }
 
 export default async function Page({ params }) {
-  // ✅ FIX: params await করতে হবে
+ 
   const { id } = await params;
 
   const friends = await getFriends();
@@ -29,7 +29,7 @@ export default async function Page({ params }) {
     <div className="bg-gray-100 min-h-screen p-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
 
-        {/* LEFT SIDE */}
+       
         <div className="space-y-4">
 
           <div className="bg-white rounded-xl shadow p-6 text-center">
@@ -46,7 +46,7 @@ export default async function Page({ params }) {
               {friend.name}
             </h2>
 
-            {/* ✅ Dynamic Status */}
+           
             <span className={`px-2 py-1 text-xs rounded ${statusStyle[friend.status]}`}>
               {friend.status}
             </span>
@@ -72,7 +72,7 @@ export default async function Page({ params }) {
             </p>
           </div>
 
-          {/* Buttons */}
+          
           <div className="space-y-2">
 
             <button className="w-full bg-white p-3 rounded-lg shadow-sm border border-gray-200 text-sm flex items-center justify-center gap-2 text-black hover:bg-gray-50 transition">
@@ -93,7 +93,7 @@ export default async function Page({ params }) {
           </div>
         </div>
 
-        {/* RIGHT SIDE */}
+        
         <div className="md:col-span-2 space-y-4">
 
           <div className="grid grid-cols-3 gap-4">
