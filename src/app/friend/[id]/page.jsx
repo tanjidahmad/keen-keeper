@@ -42,7 +42,7 @@ export default async function Page({ params }) {
               className="rounded-full mx-auto"
             />
 
-            <h2 className="mt-3 font-semibold text-lg">
+            <h2 className="mt-3 text-black font-semibold text-lg">
               {friend.name}
             </h2>
 
@@ -75,12 +75,12 @@ export default async function Page({ params }) {
           {/* Buttons */}
           <div className="space-y-2">
 
-            <button className="w-full bg-white p-3 rounded-lg shadow-sm border border-gray-200 text-sm flex items-center justify-center gap-2 hover:bg-gray-50 transition">
-              <FaClock className="text-gray-500" />
+            <button className="w-full bg-white p-3 rounded-lg shadow-sm border border-gray-200 text-sm flex items-center justify-center gap-2 text-black hover:bg-gray-50 transition">
+              <FaClock className="text-gray-700" />
               Snooze 2 Weeks
             </button>
 
-            <button className="w-full bg-white p-3 rounded-lg shadow-sm border border-gray-200 text-sm flex items-center justify-center gap-2 hover:bg-gray-50 transition">
+            <button className="w-full bg-white p-3 rounded-lg shadow-sm border border-gray-200 text-sm flex items-center justify-center gap-2 text-black hover:bg-gray-50 transition">
               <FaArchive className="text-gray-500" />
               Archive
             </button>
@@ -98,7 +98,7 @@ export default async function Page({ params }) {
 
           <div className="grid grid-cols-3 gap-4">
             <div className="bg-white p-4 rounded-xl shadow text-center">
-              <h2 className="text-xl font-bold">
+              <h2 className="text-xl font-bold text-black">
                 {friend.days_since_contact}
               </h2>
               <p className="text-sm text-gray-500">
@@ -107,7 +107,7 @@ export default async function Page({ params }) {
             </div>
 
             <div className="bg-white p-4 rounded-xl shadow text-center">
-              <h2 className="text-xl font-bold">
+              <h2 className="text-xl font-bold text-black">
                 {friend.goal}
               </h2>
               <p className="text-sm text-gray-500">
@@ -116,7 +116,7 @@ export default async function Page({ params }) {
             </div>
 
             <div className="bg-white p-4 rounded-xl shadow text-center">
-              <h2 className="text-xl font-bold">
+              <h2 className="text-xl font-bold text-black">
                 {friend.next_due_date}
               </h2>
               <p className="text-sm text-gray-500">
@@ -127,7 +127,7 @@ export default async function Page({ params }) {
 
           <div className="bg-white p-4 rounded-xl shadow flex justify-between items-center">
             <div>
-              <h3 className="font-semibold">Relationship Goal</h3>
+              <h3 className="font-semibold text-black">Relationship Goal</h3>
               <p className="text-sm text-gray-500">
                 Connect every {friend.goal} days
               </p>
@@ -139,7 +139,7 @@ export default async function Page({ params }) {
           </div>
 
           <div className="bg-white p-4 rounded-xl shadow">
-            <h3 className="font-semibold mb-3">
+            <h3 className="font-semibold text-black mb-3">
               Quick Check-In
             </h3>
 
