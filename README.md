@@ -17,3 +17,14 @@ KeenKeeper is a relationship management web application that helps users keep tr
 5.Context API
 
 6.React Hot Toast
+
+✨ Key Features
+
+👥 Friend Management
+View friends with profile details, tags, and contact status.
+
+⚡ Interaction Tracking
+Log calls, texts, and video interactions with instant updates and toast notifications.
+
+📊 Analytics Dashboard
+Visualize interaction data using a pie chart for better insights.
