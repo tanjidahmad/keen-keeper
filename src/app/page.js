@@ -29,22 +29,22 @@ export default async function Home() {
       {/* Summary Cards */}
       <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 px-4 mb-8">
         <div className="bg-white p-4 rounded-xl shadow text-center">
-          <h2 className="text-xl font-bold">10</h2>
+          <h2 className="text-xl text-black font-bold">10</h2>
           <p className="text-sm text-gray-500">Total Friends</p>
         </div>
 
         <div className="bg-white p-4 rounded-xl shadow text-center">
-          <h2 className="text-xl font-bold">3</h2>
+          <h2 className="text-xl text-black font-bold">3</h2>
           <p className="text-sm text-gray-500">On Track</p>
         </div>
 
         <div className="bg-white p-4 rounded-xl shadow text-center">
-          <h2 className="text-xl font-bold">6</h2>
+          <h2 className="text-xl text-black font-bold">6</h2>
           <p className="text-sm text-gray-500">Need Attention</p>
         </div>
 
         <div className="bg-white p-4 rounded-xl shadow text-center">
-          <h2 className="text-xl font-bold">12</h2>
+          <h2 className="text-xl text-black font-bold">12</h2>
           <p className="text-sm text-gray-500">Interactions This Month</p>
         </div>
       </div>

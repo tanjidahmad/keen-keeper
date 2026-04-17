@@ -7,7 +7,7 @@ const TimelineContext = createContext();
 export const TimelineProvider = ({ children }) => {
   const [timeline, setTimeline] = useState([]);
 
-  // ✅ Load from localStorage (NO delete on reload)
+  
   useEffect(() => {
     const saved = localStorage.getItem("timeline");
     if (saved) {
@@ -15,12 +15,12 @@ export const TimelineProvider = ({ children }) => {
     }
   }, []);
 
-  // ✅ Save to localStorage
+  
   useEffect(() => {
     localStorage.setItem("timeline", JSON.stringify(timeline));
   }, [timeline]);
 
-  // ✅ Add interaction
+  
   const addInteraction = (type, name) => {
     const entry = {
       id: Date.now(),
@@ -32,7 +32,7 @@ export const TimelineProvider = ({ children }) => {
     setTimeline((prev) => [entry, ...prev]);
   };
 
-  // ✅ Clear manually
+  
   const clearTimeline = () => {
     setTimeline([]);
     localStorage.removeItem("timeline");
