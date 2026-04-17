@@ -23,12 +23,12 @@ export default function TimelinePage() {
     <div className="bg-gray-100 min-h-screen py-10">
       <div className="max-w-5xl mx-auto px-4">
 
-        {/* Title */}
+        
         <h1 className="text-3xl font-bold text-gray-800 mb-6">
           Timeline
         </h1>
 
-        {/* Filter */}
+        
         <select
           className="border rounded-lg px-3 py-2 mb-6 text-black text-sm"
           onChange={(e) => setFilter(e.target.value)}
@@ -39,19 +39,19 @@ export default function TimelinePage() {
           <option value="Video">Video</option>
         </select>
 
-        {/* Timeline List */}
+        
         <div className="space-y-4">
           {filteredData.map((item) => (
             <div
               key={item.id}
               className="bg-white p-4 rounded-xl shadow-sm flex items-center gap-4"
             >
-              {/* Icon */}
+              
               <div className="bg-gray-100 p-3 rounded-full">
                 {getIcon(item.type)}
               </div>
 
-              {/* Text */}
+             
               <div>
                 <p className="text-sm font-medium text-gray-700">
                   {item.title}

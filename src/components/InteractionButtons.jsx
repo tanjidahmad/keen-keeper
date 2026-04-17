@@ -14,7 +14,7 @@ export default function InteractionButtons({ friendName }) {
   return (
     <div className="grid grid-cols-3 gap-4">
 
-      {/* CALL */}
+      
       <button
         onClick={() => handle("Call")}
         className="
@@ -30,7 +30,7 @@ export default function InteractionButtons({ friendName }) {
         <span className="text-sm font-medium text-gray-700">Call</span>
       </button>
 
-      {/* TEXT */}
+     
       <button
         onClick={() => handle("Text")}
         className="
@@ -46,7 +46,7 @@ export default function InteractionButtons({ friendName }) {
         <span className="text-sm font-medium text-gray-700">Text</span>
       </button>
 
-      {/* VIDEO */}
+      
       <button
         onClick={() => handle("Video")}
         className="

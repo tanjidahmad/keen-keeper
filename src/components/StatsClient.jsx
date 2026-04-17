@@ -35,12 +35,12 @@ export default function StatsPage() {
     <div className="bg-gray-100 py-10 min-h-screen">
       <div className="max-w-5xl mx-auto px-4">
 
-        {/* Title */}
+        
         <h1 className="text-3xl font-bold text-gray-800 mb-6">
           Friendship Analytics
         </h1>
 
-        {/* Chart Card */}
+        
         <div className="bg-white rounded-xl shadow p-6">
 
           <h2 className="text-sm text-gray-500 mb-4">

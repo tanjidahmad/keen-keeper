@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import Link from "next/link";
@@ -11,7 +9,7 @@ import { useTimeline } from "@/context/TimelineContext"; // ✅ add
 export default function Navbar() {
   const path = usePathname();
 
-  // ✅ get clear function
+  
   const { clearTimeline } = useTimeline();
 
   const linkStyle = (route) =>
@@ -24,7 +22,7 @@ export default function Navbar() {
   return (
     <div className="flex justify-between items-center px-6 py-3 border-b bg-white">
       
-      {/* Logo */}
+      
       <Image
         src="/assets/logo.png"
         width={120}
@@ -32,10 +30,10 @@ export default function Navbar() {
         alt="logo"
       />
 
-      {/* Links */}
+      
       <div className="flex gap-4">
 
-        {/* 🔥 HOME (double click reset) */}
+        
         <Link
           href="/"
           className={linkStyle("/")}

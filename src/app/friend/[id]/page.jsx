@@ -66,7 +66,7 @@ export default async function Page({ params }) {
               {friend.bio}
             </p>
 
-            {/* ✅ Email */}
+           
             <p className="text-sm text-gray-600 mt-2">
               {friend.email}
             </p>
